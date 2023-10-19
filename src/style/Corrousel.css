@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .globale{
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 600px; 
+}
+
+.sleder{
+    display: flex;
+    height: 300px;
+    width: 300px;
+
+}
+
+.caro {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+} */
+
+
+/* @media screen and (max-Width: 900px) {
+    .globale{
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 600px; 
+    }
+}
+
+@media screen and (max-Width: 400px) {
+    .globale{
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 300px; 
+    }
+} */
+
+/*** Carousel ***/
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(9, 30, 62, .7);
+    z-index: 1;
+}
+
+.carousel-caption {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.caption {
+    padding: 3px;
+    max-width: 900px;
+}
+
+
+/* slideInDown */
+@keyframes slideInDown {
+    from {
+      transform: translate3d(0, -100%, 0);
+      visibility: visible;
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .animate__slideInDown {
+    animation-name: slideInDown;
+  }
+
+
+  /* zoomIn */
+  @keyframes zoomIn {
+    0%, 100% {
+      transform: scale(1,1);
+    }
+    50% {
+      transform: scale(1.5,1.5);
+    }
+  }
+  
+  .animate__zoomIn {
+    animation-name: zoomIn;
+  }
+
+
+
+@media (max-width: 576px) {
+    .carousel-caption h5 {
+        font-size: 14px;
+        font-weight: 500 !important;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+        font-weight: 600 !important;
+    }
+}
