@@ -2,7 +2,7 @@ import React from 'react'
 import { BsTelephone } from 'react-icons/bs'
 import { IoReturnUpBack } from 'react-icons/io5'
 
-const Quotes = () => {
+const CallUsForQuotes = () => {
   return (
     <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div className="container py-5">
@@ -65,4 +65,4 @@ const Quotes = () => {
   )
 }
 
-export default Quotes;
+export default CallUsForQuotes;

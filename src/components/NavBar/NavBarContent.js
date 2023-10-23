@@ -5,11 +5,14 @@ import { BsSearch } from 'react-icons/bs';
 
 
 
-const NavBar = () => {
+
+const NavBarContent = () => {
   const [showSearch, setShowSearch] = useState(false);
   const okSearch = () => {
     setShowSearch(!showSearch)
   }
+
+
   return (
     <div>
       <div className="container-fluid position-relative p-0">
@@ -29,11 +32,7 @@ const NavBar = () => {
                 <Link to="btp" className="dropdown-item">BTP</Link>
                 <Link to="consultation" className="dropdown-item">Consultation</Link>
               </NavDropdown>
-              <NavDropdown title="Produits" id="nav-dropdown-produits">
-                <Link to="produits_btp" className="dropdown-item">BTP</Link>
-                <Link to="produits_import_export" className="dropdown-item">Import-Export </Link>
-                <Link to="produits_transport" className="dropdown-item">Transport </Link>
-              </NavDropdown>
+              <a href="#strengths" className="nav-item nav-link">Strengths</a>
               <Link to="/contact" className="nav-item nav-link">Contact</Link>
             </Nav>
             <Button variant="" className="ms-3 btn-warning" onClick={okSearch}>
@@ -45,7 +44,7 @@ const NavBar = () => {
         </Navbar>
       </div>
     </div>
-  );
+  )
 }
 
-export default NavBar;
+export default NavBarContent;

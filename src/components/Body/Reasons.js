@@ -6,7 +6,7 @@ import { GiMoneyStack, GiTrophyCup } from 'react-icons/gi';
 
 const Reasons = () => {
   return (
-    <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id='Strengths' className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
             <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: '600px'}}>
                 <h5 className="fw-bold text-warning text-uppercase">Why Choose Us</h5>

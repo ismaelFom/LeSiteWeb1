@@ -1,16 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavDirection from './navdirection/NavDirection';
-import Accueil from './navabar/Accueil';
-import AutresComponent from './navbarPlus/AutresComponent';
+import NavBar from './components/NavBar/NavBar';
+import Body from './components/Body/Body';
+import Service from './components/NavBarItems/services/Service';
 
 
 const App = () => {
   return (
     <BrowserRouter>
-        <Accueil />
+        <NavBar />
       <Routes>
-        <Route exact path="/" element={<AutresComponent />} />
-        <Route path="/*" element={<NavDirection />} />
+        <Route exact path="/" element={<Body />} />
+        <Route path="/*" element={<Service />} />
 
       </Routes>
     </BrowserRouter>
