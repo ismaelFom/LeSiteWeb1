@@ -3,9 +3,9 @@ import React from 'react'
 const Transits = () => {
   return (
     <div>
-      <h1>Ok Transit</h1>
+      <h1>Ok Pour Transit</h1>
     </div>
   )
 }
 
-export default Transits
+export default Transits;

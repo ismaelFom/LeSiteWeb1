@@ -4,7 +4,7 @@ import TopNavBar from './TopNavBar';
 
 const NavBar = () => {
   return (
-    <div>
+    <div style={{marginBottom:'50px'}}>
         <TopNavBar />
         <NavBarContent />      
     </div>

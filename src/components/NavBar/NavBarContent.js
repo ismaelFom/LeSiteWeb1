@@ -26,14 +26,14 @@ const NavBarContent = () => {
               <Link to="/" className="nav-item nav-link active">Home</Link>
               <Link to="/about" className="nav-item nav-link">About</Link>
               <NavDropdown title="Services" id="nav-dropdown-services">
-                <Link to="/import" className="dropdown-item">Import</Link>
+                <Link to="import" className="dropdown-item">Import</Link>
                 <Link to="export" className="dropdown-item">Export</Link>
-                <Link to="transit" className="dropdown-item">Transit</Link>
                 <Link to="btp" className="dropdown-item">BTP</Link>
                 <Link to="consultation" className="dropdown-item">Consultation</Link>
+                <Link to="Ok_transits" className="dropdown-item">Transit</Link>
               </NavDropdown>
-              <a href="#strengths" className="nav-item nav-link">Strengths</a>
-              <Link to="/contact" className="nav-item nav-link">Contact</Link>
+              <a href="/strengths" className="nav-item nav-link">Strengths</a>
+              <Link to="/CallUsForQuotes" className="nav-item nav-link">Call For Quote</Link>
             </Nav>
             <Button variant="" className="ms-3 btn-warning" onClick={okSearch}>
               <BsSearch />
