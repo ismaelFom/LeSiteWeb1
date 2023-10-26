@@ -29,6 +29,7 @@ const NavBarContent = () => {
                 <Link to="import" className="dropdown-item">Import</Link>
                 <Link to="export" className="dropdown-item">Export</Link>
                 <Link to="btp" className="dropdown-item">BTP</Link>
+                <Link to="negoces" className="dropdown-item">Negoce</Link>
                 <Link to="consultation" className="dropdown-item">Consultation</Link>
                 <Link to="Ok_transits" className="dropdown-item">Transit</Link>
               </NavDropdown>

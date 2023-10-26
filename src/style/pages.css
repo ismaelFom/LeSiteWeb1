@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.custom-accordion:hover {
+    background-color: transparent !important; /* Enlève la couleur de fond */
+    border-bottom: 2px solid #343a40 !important; /* Ajoute une bordure inférieure de couleur 'dark' */
+  }
+  
 .arrangement {
         position: absolute;
     /* padding-top: 100px; */
