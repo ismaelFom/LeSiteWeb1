@@ -9,6 +9,7 @@ import About from '../About';
 import CallUsForQuotes from '../CallUsForQuotes';
 import Errors from '../Errors';
 import Oktransits from './Oktransition';
+import Negoces from './Negoces';
 
 const Service = () => {
   return (
@@ -22,6 +23,7 @@ const Service = () => {
       <Route path="/export" element={<Exports />} />
       <Route path="/consultation" element={<Consultation />} />
       <Route path="/btp" element={<Btp />} />
+      <Route path="/negoces" element={<Negoces />} />
       <Route part="/op_transit" element={<Oktransits />} />
 
     </Route>
