@@ -5,8 +5,7 @@ import { WiDirectionUp } from 'react-icons/wi'
 const BackToTop  = () => {
   return (
     <div>
-        <a href="" class="btn btn-lg btn-lg-square rounded back-to-top" style={{backgroundColor: '#ffc107'}}><WiDirectionUp style={{width: '50px', height: '50px', color: '#091E3E'}}/></a>
-    </div>
+    <a href="#" style={{backgroundColor:'#ffc107'}} class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>    </div>
   )
 }
 
