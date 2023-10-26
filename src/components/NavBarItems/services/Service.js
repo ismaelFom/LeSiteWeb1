@@ -10,6 +10,7 @@ import CallUsForQuotes from '../CallUsForQuotes';
 import Errors from '../Errors';
 import Oktransits from './Oktransition';
 import Negoces from './Negoces';
+import LayoutError from '../../Error/LayoutError';
 
 const Service = () => {
   return (
@@ -27,7 +28,11 @@ const Service = () => {
       <Route part="/op_transit" element={<Oktransits />} />
 
     </Route>
-    <Route path="*" element={<Errors />} />
+
+    <Route element={<LayoutError />}>
+      <Route path="*" element={<Errors />} />
+    </Route>
+    
   </Routes>
   )
 }
