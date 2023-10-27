@@ -8,7 +8,7 @@ const CopyRight = () => {
         <div className="row justify-content-end">
             <div className="col-lg-8 col-md-6">
                 <div className="d-flex align-items-center justify-content-center" style={{height: '75px'}}>
-                    <p className="mb-0">&copy; 2023 <Link className="text-white border-bottom" to="#">Sunshine LLC.</Link></p>
+                    <p className="mb-0">&copy; 2023 <Link className="text-white border-bottom" to="#">SUNSHINE sarl</Link></p>
                 </div>
             </div>
         </div>

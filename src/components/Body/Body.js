@@ -7,7 +7,7 @@ import Carousels from './Carousels';
 import CallUsForQuotes from '../NavBarItems/CallUsForQuotes';
 import Footer from '../Footer/Footer';
 import Facts from './Facts';
-import Services from '../NavBarItems/Services';
+import Services from './Services';
 
 
 const Body = () => {

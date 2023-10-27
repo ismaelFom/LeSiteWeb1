@@ -7,10 +7,10 @@ import Btp from './Btp';
 import LayoutNav from './LayoutNav';
 import About from '../About';
 import CallUsForQuotes from '../CallUsForQuotes';
-import Errors from '../Errors';
-import Oktransits from './Oktransition';
 import Negoces from './Negoces';
 import LayoutError from '../../Error/LayoutError';
+import Errors from '../../Error/Errors';
+import Oktransits from './Oktransition';
 
 const Service = () => {
   return (
