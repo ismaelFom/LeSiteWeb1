@@ -4,10 +4,10 @@ import '../../../style/pages.css';
 
 const Exports = () => {
   return (
-    <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div className="container-fluid py-5 wow fadeInUp persobg" data-wow-delay="0.1s">
       <div className="container py-5">
 
-        <center><h1>EXPORTATION</h1></center>
+        <center><h1 className="exporttitle">EXPORT</h1></center>
 
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
