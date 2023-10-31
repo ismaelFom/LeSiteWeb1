@@ -75,10 +75,10 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div className="position-relative bg-warning rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <div className="position-relative bg-warning rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-3">
                         <h3 className="text-dark mb-3">Call Us For Quote</h3>
                         <p className="text-dark mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
-                        <h2 className="text-dark mb-0">+237<hr/> 680051785 <hr/>699306787</h2>
+                        <h2 className="text-dark mb-0 style={{width: '10px', height: '10px'}}">00 680051785 <hr/>00 699306787</h2>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import team1 from 'img/team1.jpg'
-import team2 from 'img/team2.jpg'
-import team3 from 'img/team3.jpg'
+import team1 from '../../img/team1.jpg';
+import team2 from '../../img/team2.jpg';
+import team3 from '../../img/team3.jpg';
+import Members from './Members';
 
 const TeamMembers = () => {
   const [team] = useState([
