@@ -16,7 +16,7 @@ const Teams = () => {
                     <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                         <div className="team-item bg-light rounded overflow-hidden">
                             <div className="team-img position-relative overflow-hidden">
-                                <img className="img-fluid w-100" src="img/team-1.jpg" alt="teamImg1" />
+                                <img className="img-fluid w-100" src="img/team1.jpg" alt="teamImg1" />
                                 <div className="team-social">
                                     <Link className="btn btn-lg btn-warning btn-lg-square rounded" to=""><CiTwitter /></Link>
                                     <Link className="btn btn-lg btn-warning btn-lg-square rounded" to=""><TbBrandFacebook /></Link>
@@ -34,7 +34,7 @@ const Teams = () => {
                     <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                         <div className="team-item bg-light rounded overflow-hidden">
                             <div className="team-img position-relative overflow-hidden">
-                                <img className="img-fluid w-100" src="img/team-2.jpg" alt="" />
+                                <img className="img-fluid w-100" src="img/team2.jpg" alt="" />
                                 <div className="team-social">
                                     <Link className="btn btn-lg btn-warning btn-lg-square rounded" to=""><CiTwitter /></Link>
                                     <Link className="btn btn-lg btn-warning btn-lg-square rounded" to=""><TbBrandFacebook /></Link>
@@ -52,7 +52,7 @@ const Teams = () => {
                     <div className="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                         <div className="team-item bg-light rounded overflow-hidden">
                             <div className="team-img position-relative overflow-hidden">
-                                <img className="img-fluid w-100" src="img/team-3.jpg" alt="teamImg2" />
+                                <img className="img-fluid w-100" src="img/team3.jpg" alt="teamImg2" />
                                 <div className="team-social">
                                     <Link className="btn btn-lg btn-warning btn-lg-square rounded" to=""><CiTwitter /></Link>
                                     <Link className="btn btn-lg btn-warning btn-lg-square rounded" to=""><TbBrandFacebook /></Link>

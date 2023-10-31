@@ -8,6 +8,7 @@ import CallUsForQuotes from '../NavBarItems/CallUsForQuotes';
 import Footer from '../Footer/Footer';
 import Facts from './Facts';
 import Services from './Services';
+import TeamMembers from './TeamMembers';
 
 
 const Body = () => {
@@ -19,6 +20,7 @@ const Body = () => {
             <Reasons />
             <Services />
             <CallUsForQuotes />
+            <TeamMembers />
             <Teams />
             <Footer />
             <BackToTop />
