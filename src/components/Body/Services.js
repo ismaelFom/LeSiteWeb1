@@ -21,7 +21,7 @@ const Services = () => {
                         </div>
                         <h4 className="mb-3">Transit</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="Ok_transits">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
@@ -33,7 +33,7 @@ const Services = () => {
                         </div>
                         <h4 className="mb-3">Import</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="/import">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
@@ -43,9 +43,9 @@ const Services = () => {
                         <div className="service-icon bg-warning">
                             <AiOutlineExport style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </div>
-                        <h4 className="mb-3">Web Development</h4>
+                        <h4 className="mb-3">Export</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="/export">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
@@ -57,7 +57,7 @@ const Services = () => {
                         </div>
                         <h4 className="mb-3">Advices</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="/consultation">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
@@ -69,16 +69,16 @@ const Services = () => {
                         </div>
                         <h4 className="mb-3">BTP Construction</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="/btp">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div className="position-relative bg-warning rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <div className="position-relative bg-warning rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-3">
                         <h3 className="text-dark mb-3">Call Us For Quote</h3>
                         <p className="text-dark mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
-                        <h2 className="text-dark mb-0">+237<hr/> 680051785 <hr/>699306787</h2>
+                        <h2 className="text-dark mb-0 style={{width: '10px', height: '10px'}}">00 680051785 <hr/>00 699306787</h2>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ const Oktransits = () => {
 
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header className="custom-accordion">transit</Accordion.Header>
+            <Accordion.Header className="custom-accordion">Résumé Opérationnels #1</Accordion.Header>
             <Accordion.Body>
             Le transit est une opération commerciale qui consiste à faire passer des marchandises à travers
              un pays ou une zone douanière en route vers une destination finale, sans que ces marchandises
@@ -20,14 +20,14 @@ const Oktransits = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header className="custom-accordion">Types de transit</Accordion.Header>
+            <Accordion.Header className="custom-accordion">Construction et rénovation de bâtiments </Accordion.Header>
             <Accordion.Body>
              - Transit interne : Les marchandises sont en transit à l'intérieur du même pays, en traversant une zone douanière spécifique, par exemple, d'un port à un aéroport.
    - Transit externe : Les marchandises entrent dans un pays, traversent son territoire et en sortent pour atteindre leur destination finale.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header className="custom-accordion">Objectif du transit</Accordion.Header>
+            <Accordion.Header className="custom-accordion">Génie civil</Accordion.Header>
             <Accordion.Body>
             Le transit permet d'assurer un transport fluide des marchandises à travers les frontières
              tout en évitant les droits de douane et les taxes qui seraient normalement applicables lors de 
@@ -35,7 +35,7 @@ const Oktransits = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header className="custom-accordion">Documents nécessaires</Accordion.Header>
+            <Accordion.Header className="custom-accordion">Travaux de gros œuvre</Accordion.Header>
             <Accordion.Body>
             - Un document de transport (comme un connaissement ou un CMR pour le transport routier).
    - Une déclaration de transit (également appelée déclaration de transit T1 ou T2 en Europe).
@@ -45,7 +45,7 @@ const Oktransits = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
-            <Accordion.Header className="custom-accordion">Processus de transit</Accordion.Header>
+            <Accordion.Header className="custom-accordion">Travaux de second œuvre</Accordion.Header>
             <Accordion.Body>
             - Les marchandises sont placées sous douane sous un régime de transit au point d'entrée du pays.
    - Les marchandises transitent à travers le pays de transit en suivant un itinéraire prédéfini.
@@ -54,7 +54,7 @@ const Oktransits = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="5">
-            <Accordion.Header className="custom-accordion">Règles et réglementations</Accordion.Header>
+            <Accordion.Header className="custom-accordion">Aménagement extérieur</Accordion.Header>
             <Accordion.Body>
             Les règles de transit varient d'un pays à l'autre. Il est essentiel de se conformer aux réglementations
              douanières du pays de transit et de respecter les délais impartis pour le transit. Les marchandises
@@ -62,7 +62,7 @@ const Oktransits = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="6">
-            <Accordion.Header className="custom-accordion">  Garantie financière </Accordion.Header>
+            <Accordion.Header className="custom-accordion"> Aménagement extérieur </Accordion.Header>
             <Accordion.Body>
             Pour bénéficier du régime de transit, il est souvent nécessaire de fournir une garantie
              financière, qui sera restituée une fois que les marchandises auront atteint leur destination
@@ -70,7 +70,7 @@ const Oktransits = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="7">
-            <Accordion.Header className="custom-accordion">Risques et responsabilités </Accordion.Header>
+            <Accordion.Header className="custom-accordion">Maintenance et entretien </Accordion.Header>
             <Accordion.Body>
             Les responsabilités liées au transit, y compris la perte ou les dommages aux marchandises, sont
              généralement définies dans les termes du contrat de transport et dans les incoterms convenus entre
@@ -82,7 +82,12 @@ douanières, une documentation précise et une gestion efficace de la logistique
   le bon déroulement du transit.
             </Accordion.Body>
           </Accordion.Item>
-          
+          <Accordion.Item eventKey="8">
+            <Accordion.Header className="custom-accordion">Conseil technique</Accordion.Header>
+            <Accordion.Body>
+            l'entreprise peut fournir des services de conseil technique aux clients, en les aidant à élaborer des plans de construction, en leur fournissant des études de faisabilité, en les conseillant sur les matériaux à utiliser, etc
+            </Accordion.Body>
+          </Accordion.Item>
         </Accordion>
       </div>
     </div>

@@ -10,12 +10,12 @@ const QuickLink = () => {
         <h3 className="text-light mb-0">Quick Links</h3>
     </div>
     <div className="link-animated d-flex flex-column justify-content-start">
-        <Link className="text-light mb-2" to="#"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Home</Link>
-        <Link className="text-light mb-2" to="#"><WiDirectionRight style={{ width: '30px', height: '30px' }} />About Us</Link>
-        <Link className="text-light mb-2" to="#"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Our Services</Link>
-        <Link className="text-light mb-2" to="#"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Meet The Team</Link>
-        <Link className="text-light mb-2" to="#"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Latest News</Link>
-        <Link className="text-light" to="#"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Contact Us</Link>
+        <Link className="text-light mb-2" to="/"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Home</Link>
+        <Link className="text-light mb-2" to="/about"><WiDirectionRight style={{ width: '30px', height: '30px' }} />About Us</Link>
+        <Link className="text-light mb-2" to="/services"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Our Services</Link>
+        <Link className="text-light mb-2" to="/teams"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Meet The Team</Link>
+        <Link className="text-light" to="/strengths"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Our Strengths</Link>
+        <Link className="text-light" to="/CallUsForQuotes"><WiDirectionRight style={{ width: '30px', height: '30px' }} />Call For Quote</Link>
     </div>
 </div>
   )

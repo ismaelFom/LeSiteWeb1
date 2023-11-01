@@ -1,10 +1,9 @@
 import React from 'react'
 
-
-const Members = () => {
+const Members = ({ team }) => {
   return (
-
-    <div> 
+    <div>
+      
     </div>
   )
 }

@@ -12,7 +12,7 @@ const Negoces = () => {
 
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header className="custom-accordion">Transport #1</Accordion.Header>
+            <Accordion.Header className="custom-accordion accordion-button">Transport #1</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -24,7 +24,7 @@ const Negoces = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header className="custom-accordion">Logistique #2</Accordion.Header>
+            <Accordion.Header className="custom-accordion accordion-button">Logistique #2</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -36,7 +36,7 @@ const Negoces = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header className="custom-accordion">Douane #3</Accordion.Header>
+            <Accordion.Header className="custom-accordion accordion-button">Douane #3</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -12,7 +12,7 @@ const Facts = () => {
                         <BsPeople style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                     </div>
                     <div className="ps-4">
-                        <h5 className="text-dark mb-0">Happy Clients</h5>
+                        <h5 className="text-dark mb-0">Visitors</h5>
                         <h1 className="text-dark mb-0" data-toggle="counter-up">12345</h1>
                     </div>
                 </div>
