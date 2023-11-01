@@ -19,7 +19,7 @@ const Body = () => {
             <Reasons />
             <Services />
             <CallUsForQuotes />
-            <TeamMembers />
+            <Teams />
             <Footer />
             <BackToTop />
         </div >

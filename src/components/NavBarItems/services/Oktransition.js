@@ -2,7 +2,7 @@ import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import '../../../style/pages.css';
 
-const Btp = () => {
+const Oktransits = () => {
   return (
     <div className="container-fluid py-5 wow fadeInUp persobg" data-wow-delay="0.1s">
       <div className="container py-5">
@@ -13,63 +13,73 @@ const Btp = () => {
           <Accordion.Item eventKey="0">
             <Accordion.Header className="custom-accordion">Résumé Opérationnels #1</Accordion.Header>
             <Accordion.Body>
-            Le BTP (Bâtiment et Travaux Publics) est un secteur
-         d'activité qui regroupe l'ensemble des entreprises qui interviennent
-          dans la construction et la rénovation des bâtiments
-           ainsi que dans les travaux publics tels que les infrastructures 
-           routières, les réseaux d'eau et d'électricité, les ouvrages
-            d'art, etc. Le BTP englobe donc toutes les étapes du processus
-             de construction, depuis la conception et la réalisation jusqu'à
-              la maintenance et la réhabilitation des bâtiments et des
-               infrastructures. Ce secteur est essentiel pour le développement
-                des villes et des territoires, et il mobilise une main-d'œuvre
-                 qualifiée et spécialisée dans différents métiers tels que
-                  maçons, électriciens, plombiers, charpentiers, etc.
+            Le transit est une opération commerciale qui consiste à faire passer des marchandises à travers
+             un pays ou une zone douanière en route vers une destination finale, sans que ces marchandises
+              ne soient soumises aux droits de douane, aux taxes ou aux autres réglementations douanières
+               du pays de transit. Voici quelques informations détaillées sur le transit :
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
             <Accordion.Header className="custom-accordion">Construction et rénovation de bâtiments </Accordion.Header>
             <Accordion.Body>
-            l'entreprise peut être chargée de la construction de bâtiments résidentiels, commerciaux ou industriels, ainsi que de la rénovation de bâtiments existants.
+             - Transit interne : Les marchandises sont en transit à l'intérieur du même pays, en traversant une zone douanière spécifique, par exemple, d'un port à un aéroport.
+   - Transit externe : Les marchandises entrent dans un pays, traversent son territoire et en sortent pour atteindre leur destination finale.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
             <Accordion.Header className="custom-accordion">Génie civil</Accordion.Header>
             <Accordion.Body>
-            cela comprend des travaux tels que la construction de ponts, de routes, de tunnels, de digues, de barrages, de réseaux d'assainissement, etc
+            Le transit permet d'assurer un transport fluide des marchandises à travers les frontières
+             tout en évitant les droits de douane et les taxes qui seraient normalement applicables lors de 
+             l'importation.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
             <Accordion.Header className="custom-accordion">Travaux de gros œuvre</Accordion.Header>
             <Accordion.Body>
-              
-            l'entreprise peut réaliser les travaux de fondation, de structure et de maçonnerie nécessaires à la construction du bâtiment.
+            - Un document de transport (comme un connaissement ou un CMR pour le transport routier).
+   - Une déclaration de transit (également appelée déclaration de transit T1 ou T2 en Europe).
+   - Une garantie financière pour couvrir les droits de douane et les taxes en cas de non-respect des règles de transit.
+
+            
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
             <Accordion.Header className="custom-accordion">Travaux de second œuvre</Accordion.Header>
             <Accordion.Body>
-            cela inclut les travaux de finition tels que l'installation des revêtements de sol, des menuiseries intérieures et extérieures, de l'électricité, de la plomberie, de la climatisation, de la ventilation, etc.
+            - Les marchandises sont placées sous douane sous un régime de transit au point d'entrée du pays.
+   - Les marchandises transitent à travers le pays de transit en suivant un itinéraire prédéfini.
+   - Les marchandises sont déchargées au point de destination finale, où les formalités douanières appropriées sont accomplies.
+
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="5">
             <Accordion.Header className="custom-accordion">Aménagement extérieur</Accordion.Header>
             <Accordion.Body>
-            cela comprend les travaux d'aménagement paysager, la création d'espaces verts, la pose de terrasses, l'installation d'éclairage extérieur, etc.
+            Les règles de transit varient d'un pays à l'autre. Il est essentiel de se conformer aux réglementations
+             douanières du pays de transit et de respecter les délais impartis pour le transit. Les marchandises
+              doivent être sous surveillance douanière tout au long du transit.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="6">
             <Accordion.Header className="custom-accordion"> Aménagement extérieur </Accordion.Header>
             <Accordion.Body>
-            cela comprend les travaux d'aménagement paysager, la création d'espaces verts, la pose de terrasses, l'installation d'éclairage extérieur, etc.
+            Pour bénéficier du régime de transit, il est souvent nécessaire de fournir une garantie
+             financière, qui sera restituée une fois que les marchandises auront atteint leur destination
+              finale conformément aux règles de transit.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="7">
             <Accordion.Header className="custom-accordion">Maintenance et entretien </Accordion.Header>
             <Accordion.Body>
-            certaines entreprises du BTP proposent également des services de maintenance et d'entretien des bâtiments,
-             tels que la réparation des systèmes électriques, la maintenance des installations de plomberie, la 
-             rénovation des revêtements, etc.
+            Les responsabilités liées au transit, y compris la perte ou les dommages aux marchandises, sont
+             généralement définies dans les termes du contrat de transport et dans les incoterms convenus entre
+              les parties impliquées.
+
+Le transit est une opération complexe qui nécessite une bonne compréhension des réglementations 
+douanières, une documentation précise et une gestion efficace de la logistique. Il est recommandé
+ de travailler avec des experts en commerce international ou des courtiers en douane pour garantir
+  le bon déroulement du transit.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="8">
@@ -84,4 +94,4 @@ const Btp = () => {
   )
 }
 
-export default Btp;
+export default Oktransits;

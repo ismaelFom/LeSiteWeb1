@@ -14,9 +14,9 @@ const App = () => {
         <Route exact path="/" element={<Body />} />
         <Route path="/*" element={<Service />} />
         {/* <Route path="/Ok_transits" element={<Oktransits />} /> */}
-        <Route element={<LayoutNav />}>
-      <Route part="/Ok_transits" element={<Oktransits />} />
-    </Route>
+       {/*<Route element={<LayoutNav />}>*/}
+        <Route part="/Ok_transits" element={<Oktransits />} />
+    {/*</Route>*/}
 
       </Routes>
     </BrowserRouter>
