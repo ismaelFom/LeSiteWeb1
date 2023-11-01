@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+/** CSS **/
 :root {
     --primary: #06A3DA;
     --secondary: #34AD54;
@@ -147,6 +147,14 @@ h6,
     outline: none;
     transition: .5s;
 }
+
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ffc107de !important;
+}
+
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;

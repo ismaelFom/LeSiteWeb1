@@ -15,7 +15,7 @@ const Imports = () => {
 
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header className="custom-accordion accordion-button">
+            <Accordion.Header className="custom-accordion">
               Résumé Opérationnels #1
             </Accordion.Header>
             <Accordion.Body>
@@ -33,7 +33,7 @@ const Imports = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header className="custom-accordion accordion-button">
+            <Accordion.Header className="custom-accordion">
               Acteur de l'export-import #2
             </Accordion.Header>
             <Accordion.Body>
@@ -51,7 +51,7 @@ const Imports = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header className="custom-accordion accordion-button">
+            <Accordion.Header className="custom-accordion">
               Personnel qualifié #3
             </Accordion.Header>
             <Accordion.Body>
@@ -67,7 +67,7 @@ const Imports = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header className="custom-accordion accordion-button">
+            <Accordion.Header className="custom-accordion">
               Etude du Marché #4
             </Accordion.Header>
             <Accordion.Body>
@@ -83,7 +83,7 @@ const Imports = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
-            <Accordion.Header className="custom-accordion accordion-button">
+            <Accordion.Header className="custom-accordion">
               Outils digitaux #5
             </Accordion.Header>
             <Accordion.Body>
