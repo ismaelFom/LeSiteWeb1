@@ -11,6 +11,9 @@ import Negoces from './Negoces';
 import LayoutError from '../../Error/LayoutError';
 import Errors from '../../Error/Errors';
 import Oktransits from './Oktransition';
+import Services from '../../Body/Services';
+import TeamMembers from '../../Body/TeamMembers';
+import Reasons from '../../Body/Reasons';
 
 const Service = () => {
   return (
@@ -26,6 +29,11 @@ const Service = () => {
       <Route path="/btp" element={<Btp />} />
       <Route path="/negoces" element={<Negoces />} />
       {/* <Route part="/op_transit" element={<Oktransits />} /> */}
+
+      
+      <Route path="/services" element={<Services />} />
+      <Route path="/strengths" element={<Reasons />} />
+      <Route path="/teams" element={<TeamMembers />} />
 
     </Route>
     <Route element={<LayoutNav />}>

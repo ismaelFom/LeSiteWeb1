@@ -1,20 +1,14 @@
-import React, { useState } from 'react';
-import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
+import React from 'react';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { BsSearch } from 'react-icons/bs';
 
 
 
 
 const NavBarContent = () => {
-  const [showSearch, setShowSearch] = useState(false);
-  const okSearch = () => {
-    setShowSearch(!showSearch)
-  }
 
 
   return (
-    <div>
       <div className="container-fluid position-relative p-0">
         <Navbar bg="dark" expand="lg" variant="dark" className="px-5 py-3 py-lg-0">
           <Link to="/" className="navbar-brand p-0">
@@ -36,16 +30,13 @@ const NavBarContent = () => {
               <a href="/strengths" className="nav-item nav-link">Strengths</a>
               <Link to="/CallUsForQuotes" className="nav-item nav-link">Call For Quote</Link>
             </Nav>
-            <Button variant="" className="ms-3 btn-warning" onClick={okSearch}>
-              <BsSearch />
-            </Button>
-            {showSearch && <input type="text" placeholder="Rechercher..." />}
+            
 
           </Navbar.Collapse>
         </Navbar>
       </div>
-    </div>
   )
 }
 
 export default NavBarContent;
+

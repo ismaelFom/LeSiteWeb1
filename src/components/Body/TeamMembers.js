@@ -6,9 +6,9 @@ import Members from './Members';
 
 const TeamMembers = () => {
   const [team] = useState([
-    {id: 1, nom: 'BOSS1', description: 'Designation 1', image: team1, alt: 'img1', time: '0.3s', twitte: '', facebook: '', instagram: '', linkedin: '', youtube: '' },
-    {id: 2, nom: 'BOSS2', description: 'Designation 2', image: team2, alt: 'img2', time: '0.6s', twitte: '', facebook: '', instagram: '', linkedin: '', youtube: ''  },
-    {id: 3, nom: 'BOSS3', description: 'Designation 3', image: team3, alt: 'img3', time: '0.9s', twitte: '', facebook: '', instagram: '', linkedin: '', youtube: ''  }
+    { id: 1, nom: 'M. NENI', description: 'Designation 1', image: team1, alt: 'img1', time: '0.3s', twitte: '', facebook: '', instagram: '', linkedin: '', youtube: '' },
+    { id: 2, nom: 'M. HASSAN', description: 'Designation 2', image: team2, alt: 'img2', time: '0.6s', twitte: '', facebook: '', instagram: '', linkedin: '', youtube: '' },
+    { id: 3, nom: 'M. BRICE', description: 'Designation 3', image: team3, alt: 'img3', time: '0.9s', twitte: '', facebook: '', instagram: '', linkedin: '', youtube: '' }
   ])
 
 
@@ -20,11 +20,12 @@ const TeamMembers = () => {
           <h5 className="fw-bold text-warning text-uppercase">Team Members</h5>
           <h1 className="mb-0">Professional Stuffs Ready to Help Your Business</h1>
         </div>
-
-        {team && team.map((team) => (
-          <Members key={team.id} team={team} />
-                    ))}
-        
+        {/* <div style={{ flexDirection: 'row' }}></div> */}
+        <div className="row g-5">
+          {team && team.map((team) => (
+            <Members key={team.id} team={team} />
+          ))}
+        </div>
       </div>
 
     </div>

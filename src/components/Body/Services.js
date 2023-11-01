@@ -21,7 +21,7 @@ const Services = () => {
                         </div>
                         <h4 className="mb-3">Transit</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="Ok_transits">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
@@ -33,7 +33,7 @@ const Services = () => {
                         </div>
                         <h4 className="mb-3">Import</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="/import">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
@@ -43,9 +43,9 @@ const Services = () => {
                         <div className="service-icon bg-warning">
                             <AiOutlineExport style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </div>
-                        <h4 className="mb-3">Web Development</h4>
+                        <h4 className="mb-3">Export</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="/export">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
@@ -57,7 +57,7 @@ const Services = () => {
                         </div>
                         <h4 className="mb-3">Advices</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="/consultation">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>
@@ -69,7 +69,7 @@ const Services = () => {
                         </div>
                         <h4 className="mb-3">BTP Construction</h4>
                         <p className="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <Link className="btn btn-lg btn-warning-services rounded" to="#">
+                        <Link className="btn btn-lg btn-warning-services rounded" to="/btp">
                             <WiDirectionRight style={{width: '50px', height: '50px', color: '#091E3E'}}/>
                         </Link>
                     </div>

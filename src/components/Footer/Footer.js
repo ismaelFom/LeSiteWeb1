@@ -3,7 +3,7 @@ import CopyRight from './CopyRight';
 import Newsletter from './Newsletter';
 import Contacts from './Contacts';
 import QuickLink from './QuickLink';
-import PopularLink from './PopularLink';
+// import PopularLink from './PopularLink';
 
 const Footer = () => {
     return (
@@ -15,10 +15,10 @@ const Footer = () => {
                             <Newsletter />
                         </div>
                         <div className="col-lg-8 col-md-6">
-                            <div className="row gx-5">
+                            <div className="row gx-5" style={{ justifyContent: 'space-around' }}>
                                 <Contacts />
                                 <QuickLink />
-                                <PopularLink />
+                                {/* <PopularLink /> space-between */}
                             </div>
                         </div>
                     </div>
