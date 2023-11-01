@@ -11,7 +11,7 @@ const Exports = () => {
 
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header className="custom-accordion">Résumé Opérationnels #1</Accordion.Header>
+            <Accordion.Header className="custom-accordion accordion-button">Résumé Opérationnels #1</Accordion.Header>
             <Accordion.Body>
               Il donne une vue d’ensemble claire et concise de l’entreprise et de ses objectifs, 
               en abordant les questions clés telles que la gestion de la chaîne d’approvisionnement, 
@@ -26,7 +26,7 @@ const Exports = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header className="custom-accordion">Acteur de l'export-import #2</Accordion.Header>
+            <Accordion.Header className="custom-accordion accordion-button">Acteur de l'export-import #2</Accordion.Header>
             <Accordion.Body>
               Il est important de comprendre les différents acteurs impliqués dans une transaction d'import-export, 
               tels que l'importateur, l'exportateur, le commissionnaire de transport, le transporteur, 
@@ -41,7 +41,7 @@ const Exports = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header className="custom-accordion">Personnel qualifié #3</Accordion.Header>
+            <Accordion.Header className="custom-accordion accordion-button">Personnel qualifié #3</Accordion.Header>
             <Accordion.Body>
               Un personnel qualifié et spécialisé dans un domaine technique spécifique et 
               multilingue est un atout majeur.
@@ -55,7 +55,7 @@ const Exports = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header className="custom-accordion">Etude du Marché #4</Accordion.Header>
+            <Accordion.Header className="custom-accordion accordion-button">Etude du Marché #4</Accordion.Header>
             <Accordion.Body>
               Une étude de marché complète est essentielle pour comprendre et 
               analyser le fonctionnement du commerce à l'échelle internationale.
@@ -69,7 +69,7 @@ const Exports = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
-            <Accordion.Header className="custom-accordion">Outils digitaux #5</Accordion.Header>
+            <Accordion.Header className="custom-accordion accordion-button">Outils digitaux #5</Accordion.Header>
             <Accordion.Body>
               Les outils digitaux peuvent aider à capter le plus de leads possibles
               Une étude de marché complète est essentielle pour comprendre et 
