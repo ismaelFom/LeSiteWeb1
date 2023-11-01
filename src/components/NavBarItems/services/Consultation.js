@@ -4,7 +4,7 @@ import '../../../style/pages.css';
 
 const Consultation = () => {
   return (
-    <div className="container-fluid py-5 wow fadeInUp persobg" data-wow-delay="0.1s">
+    <div className="container-fluid py-5 wow fadeInUp advicecss" data-wow-delay="0.1s">
       <div className="container py-5">
 
         <center><h1 className="exporttitle">ADVICE</h1></center>

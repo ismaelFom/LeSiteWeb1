@@ -32,8 +32,29 @@
     border-bottom: 2px solid #343a40 !important; /* Ajoute une bordure inférieure de couleur 'dark' */
   }
 
-.persobg{
+.persobg {
     background-image: url('../../public/img/btatrans.jpeg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.btpcss {
+background-image: url('../../public/img/btp.jpeg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.transitcss {
+background-image: url('../../public/img/transit.jpeg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.advicecss {
+background-image: url('../../public/img/advice.jpeg');
     height: 100%;
     background-position: center;
     background-size: cover;
