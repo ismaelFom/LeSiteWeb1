@@ -19,27 +19,26 @@ const Service = () => {
   return (
     <Routes>
 
-    <Route element={<LayoutNav />}>
-      <Route path="/about" element={<About />} />
-      <Route path="/CallUsForQuotes" element={<CallUsForQuotes />} />
+      <Route element={<LayoutNav />}>
+        <Route path="/about" element={<About />} />
+        <Route path="/CallUsForQuotes" element={<CallUsForQuotes />} />
 
-      <Route path="/import" element={<Imports />} />
-      <Route path="/export" element={<Exports />} />
-      <Route path="/consultation" element={<Consultation />} />
-      <Route path="/btp" element={<Btp />} />
-      <Route path="/negoces" element={<Negoces />} />
-      {/* <Route part="/op_transit" element={<Oktransits />} /> */}
+        <Route path="/import" element={<Imports />} />
+        <Route path="/export" element={<Exports />} />
+        <Route path="/consultation" element={<Consultation />} />
+        <Route path="/btp" element={<Btp />} />
+        <Route path="/negoces" element={<Negoces />} />
+        <Route parth="/op_transit" element={<Oktransits />} />
+        <Route parth="/teams" element={<TeamMembers />} />
+        <Route parth="/strengths" element={<Reasons />} />
+        <Route parth="/services" element={<Services />} />
 
-    </Route>
-   {/*  <Route element={<LayoutNav />}>
-      
-    </Route>
+      </Route>
+      <Route element={<LayoutError />}>
+        <Route path="*" element={<Errors />} />
+      </Route>
 
-    <Route element={<LayoutError />}>
-      <Route path="*" element={<Errors />} />
-    </Route> */}
-    
-  </Routes>
+    </Routes>
   )
 }
 
