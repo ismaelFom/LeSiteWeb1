@@ -40,21 +40,21 @@
 }
 
 .btpcss {
-background-image: url('../../public/img/btp.jpeg');
+background-image: url('../../public/img/btp.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
 }
 
 .transitcss {
-background-image: url('../../public/img/transit.jpeg');
+background-image: url('../../public/img/transit.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
 }
 
 .advicecss {
-background-image: url('../../public/img/advice.jpeg');
+background-image: url('../../public/img/advice.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
