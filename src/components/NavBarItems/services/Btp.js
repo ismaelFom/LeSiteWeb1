@@ -4,7 +4,7 @@ import '../../../style/pages.css';
 
 const Btp = () => {
   return (
-    <div className="container-fluid py-5 wow fadeInUp persobg" data-wow-delay="0.1s">
+    <div className="container-fluid py-5 wow fadeInUp btpcss" data-wow-delay="0.1s">
       <div className="container py-5">
 
         <center><h1 className="exporttitle">Batiment et Traveaux publics(BTP) </h1></center>
