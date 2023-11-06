@@ -28,10 +28,10 @@ const Service = () => {
         <Route path="/consultation" element={<Consultation />} />
         <Route path="/btp" element={<Btp />} />
         <Route path="/negoces" element={<Negoces />} />
-        <Route parth="/op_transit" element={<Oktransits />} />
-        <Route parth="/teams" element={<TeamMembers />} />
-        <Route parth="/strengths" element={<Reasons />} />
-        <Route parth="/services" element={<Services />} />
+        <Route path="/op_transit" element={<Oktransits />} />
+        <Route path="/teams" element={<TeamMembers />} />
+        <Route path="/strengths" element={<Reasons />} />
+        <Route path="/services" element={<Services />} />
 
       </Route>
       <Route element={<LayoutError />}>
