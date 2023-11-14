@@ -5,9 +5,9 @@ import BackToTop from './BackToTop ';
 import Carousels from './Carousels';
 import CallUsForQuotes from '../NavBarItems/CallUsForQuotes';
 import Footer from '../Footer/Footer';
-import Facts from '../Facts';
 import Services from './Services';
 import TeamMembers from './TeamMembers';
+import Facts from './Facts';
 
 
 const Body = () => {
