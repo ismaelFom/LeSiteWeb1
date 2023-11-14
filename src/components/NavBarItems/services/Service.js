@@ -28,7 +28,7 @@ const Service = () => {
         <Route path="/consultation" element={<Consultation />} />
         <Route path="/btp" element={<Btp />} />
         <Route path="/negoces" element={<Negoces />} />
-        <Route path="/op_transit" element={<Oktransits />} />
+        <Route path="/Ok_transits" element={<Oktransits />} />
         <Route path="/teams" element={<TeamMembers />} />
         <Route path="/strengths" element={<Reasons />} />
         <Route path="/services" element={<Services />} />
