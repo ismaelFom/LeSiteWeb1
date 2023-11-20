@@ -1,6 +1,8 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import '../../../style/pages.css';
+import Btnwhatsapp from '../../Error/Btnwhatsapp';
+
 
 const Oktransits = () => {
   return (
@@ -84,14 +86,15 @@ const Oktransits = () => {
              généralement définies dans les termes du contrat de transport et dans les incoterms convenus entre
               les parties impliquées.
 
-Le transit est une opération complexe qui nécessite une bonne compréhension des réglementations 
-douanières, une documentation précise et une gestion efficace de la logistique. Il est recommandé
- de travailler avec des experts en commerce international ou des courtiers en douane pour garantir
-  le bon déroulement du transit.
+              Le transit est une opération complexe qui nécessite une bonne compréhension des réglementations 
+              douanières, une documentation précise et une gestion efficace de la logistique. Il est recommandé
+              de travailler avec des experts en commerce international ou des courtiers en douane pour garantir
+                le bon déroulement du transit.
             </Accordion.Body>
           </Accordion.Item>
           
         </Accordion>
+        <Btnwhatsapp />
       </div>
     </div>
   )

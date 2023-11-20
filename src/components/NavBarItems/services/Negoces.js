@@ -1,6 +1,8 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import '../../../style/pages.css';
+import Btnwhatsapp from '../../Error/Btnwhatsapp';
+
 
 
 const Negoces = () => {
@@ -48,6 +50,7 @@ const Negoces = () => {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
+        <Btnwhatsapp />
       </div>
     </div>
   )

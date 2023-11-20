@@ -1,6 +1,8 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
 import { IoReturnUpBack } from "react-icons/io5";
+import Btnwhatsapp from '../Error/Btnwhatsapp';
+
 
 const CallUsForQuotes = () => {
   const services = ["Import", "Export", "Btp", "Transit", "Consultation"];
@@ -121,6 +123,7 @@ const CallUsForQuotes = () => {
             </div>
           </div>
         </div>
+        <Btnwhatsapp />
       </div>
     </div>
   );

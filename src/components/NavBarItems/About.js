@@ -1,6 +1,9 @@
 import React from 'react'
 import { BsCheckLg, BsTelephone } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import Btnwhatsapp from '../Error/Btnwhatsapp'
+
+
 
 const About = () => {
   return (
@@ -40,6 +43,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Btnwhatsapp />
     </div>
 </div>
   )

@@ -8,6 +8,7 @@ import Footer from '../Footer/Footer';
 import Services from './Services';
 import TeamMembers from './TeamMembers';
 import Facts from './Facts';
+import Btnwhatsapp from '../Error/Btnwhatsapp';
 
 
 const Body = () => {
@@ -21,6 +22,7 @@ const Body = () => {
             <CallUsForQuotes />
             <TeamMembers />
             <Footer />
+            <Btnwhatsapp />
             <BackToTop />
         </div >
     )
