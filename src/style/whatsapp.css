@@ -1,21 +1,22 @@
   /* Whatsapp Button */
   
   /* for desktop */
-  .whatsapp_float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 100px;
-    right: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: none;
-    z-index: 100;
-    /* box-shadow: 2px 2px 3px #999; */
-  }
+.whatsapp_float {
+  display: none; /* Ajoutez cette ligne */
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 100px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: none;
+  z-index: 100;
+  /* box-shadow: 2px 2px 3px #999; */
+}
   
   .whatsapp-icon {
     margin-top: 16px;

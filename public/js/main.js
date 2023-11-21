@@ -62,7 +62,7 @@
     
     // Back to top button
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 800) {
             $('.back-to-top').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');
@@ -73,6 +73,15 @@
         return false;
     });
 
+    // whatsapp button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 800) {
+            $('.whatsapp_float').fadeIn('slow');
+        } else {
+            $('.whatsapp_float').fadeOut('slow');
+        }
+    });
+    
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
