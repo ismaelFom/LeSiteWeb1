@@ -97,9 +97,11 @@ h6,
     background-color: #ffc107;
 }
 
+/* #ec0c0c; */
+
 .btn-primary,
 .btn-secondary {
-    color: #ec0c0c;
+    color: #091E3E;
     box-shadow: inset 0 0 0 50px transparent;
 }
 
@@ -107,6 +109,7 @@ h6,
     box-shadow: inset 0 0 0 0 var(--primary);
 }
 
+/* secondary: #34AD54 */
 .btn-secondary:hover {
     box-shadow: inset 0 0 0 0 var(--secondary);
 }
