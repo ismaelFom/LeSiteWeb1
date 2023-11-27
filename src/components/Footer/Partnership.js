@@ -9,7 +9,7 @@ const Partnership = () => {
         <h3 className="text-light mb-0">Partnership</h3>
         
     </div>
-    <Link to=''>
+    <Link to='https://www.mickmaq.com/'>
     <img src={m} alt='m' style={{width:'130px', height: '150px',  marginRight:'25px'}} ></img>
     </Link>
     <Link to=''>
