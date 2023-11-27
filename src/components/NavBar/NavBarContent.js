@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 // import LanguageSwitcher from '../../langues/LanguageSwitcher';
-import Logo from './Logo';
+// import Logo from './Logo';
 import sansh from './sansh.png';
 
 
@@ -32,9 +32,7 @@ const NavBarContent = () => {
             </NavDropdown>
             <a href="/strengths" className="nav-item nav-link">Strengths</a>
 
-            <Link class="nav-link" to="#">
-              <div id="google_translate_element"></div>
-            </Link>
+            <a className="nav-item nav-link" href="/strengths"> <div id="google_translate_element"></div> </a>
 
             {/* <LanguageSwitcher /> */}
             <Link to="/CallUsForQuotes" className="nav-item nav-link">Call For Quote</Link>
