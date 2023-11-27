@@ -15,7 +15,7 @@ const NavBarContent = () => {
       <Navbar bg="dark" expand="lg" variant="dark" className="px-5 py-3 py-lg-0">
         <Link to="/" className="navbar-brand p-0">
           <img src={sansh} alt='sansh' style={{width:'100px', height: '70px' }} ></img>
-          <h1 className="m-0">Sunshine</h1>
+          <h1 className="m-0" style={{ float: 'right', paddingTop:'35px'}}>Sunshine</h1>
         </Link>
         <Navbar.Toggle aria-controls="navbarCollapse" />
         <Navbar.Collapse id="navbarCollapse">
