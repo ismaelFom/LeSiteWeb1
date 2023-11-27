@@ -2,8 +2,8 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 // import LanguageSwitcher from '../../langues/LanguageSwitcher';
-// import Logo from './Logo';
-
+import Logo from './Logo';
+import sansh from './sansh.png';
 
 
 
@@ -14,6 +14,7 @@ const NavBarContent = () => {
     <div className="container-fluid position-relative p-0">
       <Navbar bg="dark" expand="lg" variant="dark" className="px-5 py-3 py-lg-0">
         <Link to="/" className="navbar-brand p-0">
+          <img src={sansh} alt='sansh' style={{width:'100px', height: '70px' }} ></img>
           <h1 className="m-0">Sunshine</h1>
         </Link>
         <Navbar.Toggle aria-controls="navbarCollapse" />
