@@ -14,18 +14,7 @@ const Btp = () => {
           <Accordion.Item eventKey="0">
             <Accordion.Header className="custom-accordion">Résumé Opérationnels #1</Accordion.Header>
             <Accordion.Body>
-              Le BTP (Bâtiment et Travaux Publics) est un secteur
-              d'activité qui regroupe l'ensemble des entreprises qui interviennent
-              dans la construction et la rénovation des bâtiments
-              ainsi que dans les travaux publics tels que les infrastructures
-              routières, les réseaux d'eau et d'électricité, les ouvrages
-              d'art, etc. Le BTP englobe donc toutes les étapes du processus
-              de construction, depuis la conception et la réalisation jusqu'à
-              la maintenance et la réhabilitation des bâtiments et des
-              infrastructures. Ce secteur est essentiel pour le développement
-              des villes et des territoires, et il mobilise une main-d'œuvre
-              qualifiée et spécialisée dans différents métiers tels que
-              maçons, électriciens, plombiers, charpentiers, etc.
+            Le BTP (Bâtiment et Travaux Publics) est un secteur d'activité qui regroupe l'ensemble des entreprises qui interviennent dans la construction et la rénovation des bâtiments ainsi que dans les travaux publics tels que les infrastructures routières, les réseaux d'eau et d'électricité, les ouvrages d'art, etc. Le BTP englobe donc toutes les étapes du processus de construction, depuis la conception et la réalisation jusqu'à la maintenance et la réhabilitation des bâtiments et des infrastructures. Ce secteur est essentiel pour le développement des villes et des territoires, et il mobilise une main-d'œuvre qualifiée et spécialisée dans différents métiers tels que maçons, électriciens, plombiers, charpentiers, etc.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
@@ -43,7 +32,6 @@ const Btp = () => {
           <Accordion.Item eventKey="3">
             <Accordion.Header className="custom-accordion">Travaux de gros œuvre</Accordion.Header>
             <Accordion.Body>
-
               l'entreprise peut réaliser les travaux de fondation, de structure et de maçonnerie nécessaires à la construction du bâtiment.
             </Accordion.Body>
           </Accordion.Item>
@@ -68,9 +56,7 @@ const Btp = () => {
           <Accordion.Item eventKey="7">
             <Accordion.Header className="custom-accordion">Maintenance et entretien </Accordion.Header>
             <Accordion.Body>
-              certaines entreprises du BTP proposent également des services de maintenance et d'entretien des bâtiments,
-              tels que la réparation des systèmes électriques, la maintenance des installations de plomberie, la
-              rénovation des revêtements, etc.
+              certaines entreprises du BTP proposent également des services de maintenance et d'entretien des bâtiments, tels que la réparation des systèmes électriques, la maintenance des installations de plomberie, la rénovation des revêtements, etc.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="8">

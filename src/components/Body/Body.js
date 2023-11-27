@@ -14,7 +14,7 @@ import Btnwhatsapp from '../Error/Btnwhatsapp';
 const Body = () => {
   return (
     <div>
-           <Carousels />
+            <Carousels />
             <Facts />
             <About />
             <Reasons />
