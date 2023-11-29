@@ -14,11 +14,11 @@ i18n
       en: {
         translation: require('./langues/locales/en/en.json'),
       },
-      fr: {
-        translation: require('./langues/locales/fr/fr.json'),
-      },
       zh: {
         translation: require('./langues/locales/zh/zh.json'),
+      },
+      fr: {
+        translation: require('./langues/locales/fr/fr.json'),
       },
     },
     lng: 'en',

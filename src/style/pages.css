@@ -83,3 +83,53 @@ background-image: url('../../public/img/advice.jpg');
         padding-right: 10px;
     }
 }
+
+
+ /*#2684FF langageSwitcher */
+.custom-option {
+    margin-left: 10px;
+  }
+  
+  .custom-option:hover {
+    background-color: lightgray !important;
+  }
+
+  .select-component div[class$='-option']:hover {
+    background-color: transparent !important;
+  }
+  
+  
+  .css-t3ipsp-control:hover {
+    border-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none;
+}
+
+  .custom-option:active {
+    background-color: transparent !important;
+  }
+
+  .select-component {
+    width: 150px !important;
+  }
+  
+
+ .css-13cymwt-control {
+    border-color: transparent !important;
+    box-shadow: none;
+    min-height: 15px;
+    max-height: 15px;
+}
+.css-13cymwt-control {
+    border-color: transparent !important;
+    box-shadow: none;
+    min-height: 15px;
+    max-height: 15px;
+}
+
+/* .css-b62m3t-container.select-component {
+     border-color: transparent !important;
+    box-shadow: none;
+    min-height: 15px;
+    max-height: 15px;
+} */

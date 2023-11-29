@@ -8,7 +8,7 @@ const Errors = () => {
       <div className="container py-5">
         <div className="row g-5">
           <div className="col-lg-5 wow slideInUp" data-wow-delay="0.2s">
-            <img className="img-fluid w-100" src="img/oops.jpg" alt="image Oops Error" />
+            <img className="img-fluid w-100" src="img/oops.jpg" alt="imageOops Error" />
           </div>
           <div className="col-lg-7 wow slideInUp Sorry" data-wow-delay="0.3s">
             <center><h1>Sorry</h1></center>
